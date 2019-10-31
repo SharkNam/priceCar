@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.header .header__detail {
+  display: flex;
+  justify-content: space-between;
+  background-color: #007cc0; }
+  .header .header__detail .header-honda-logo img {
+    margin-left: 40px;
+    margin-top: 3px; }
+  .header .header__detail .nav-detail li {
+    padding: 0 15px; }
+  .header .header__detail .nav-detail li:hover {
+    background-color: #fff; }
+    .header .header__detail .nav-detail li:hover a {
+      color: #00446b; }
+  .header .header__detail .nav-detail a {
+    color: #fff;
+    margin-top: 7px; }
+
+.my-carousel .carousel-caption {
+  bottom: 50px; }
+.my-carousel .carousel-indicators {
+  bottom: 2px; }
+  .my-carousel .carousel-indicators li {
+    width: 11px;
+    height: 11px;
+    background: transparent;
+    border: 1.5px solid white;
+    border-radius: 50%; }
+  .my-carousel .carousel-indicators li.active {
+    background: #007aff; }
+.my-carousel .carousel-inner .carousel-caption .h3--color--blue {
+  color: #00324f; }
+.my-carousel .carousel-inner .carousel-caption .h3--color--white {
+  color: #fff; }
+
+.honda__news .news__detail {
+  background: url(../../img/CRV-Homepage-1400-T3-2x.webp) no-repeat center center;
+  background-size: cover;
+  height: 370px;
+  margin: 20px 15px;
+  padding-top: 200px;
+  padding-left: 20px;
+  padding-right: 20px; }
+  .honda__news .news__detail h5,
+  .honda__news .news__detail p {
+    color: #00324f; }
+.honda__news .new__detail__kbb {
+  background: url(../../img/Autos-Homepage-Flex-KBB-1400-2x.webp) no-repeat center center;
+  background-size: cover;
+  height: 370px;
+  margin: 20px 15px;
+  padding-top: 150px;
+  padding-left: 20px;
+  padding-right: 450px; }
+
+.our-vehicles .nav-tabs .nav-item.show .nav-link,
+.our-vehicles .nav-tabs .nav-link.active,
+.our-vehicles .nav-tabs .nav-item:hover .nav-link {
+  border: white; }
+.our-vehicles .tab-content .car__vehicles {
+  position: relative; }
+  .our-vehicles .tab-content .car__vehicles img {
+    position: relative; }
+  .our-vehicles .tab-content .car__vehicles .vehicles__content {
+    position: absolute;
+    top: 25%;
+    right: 68%;
+    left: 8%; }
+    .our-vehicles .tab-content .car__vehicles .vehicles__content .price {
+      display: flex;
+      justify-content: space-between; }
+      .our-vehicles .tab-content .car__vehicles .vehicles__content .price .star p,
+      .our-vehicles .tab-content .car__vehicles .vehicles__content .price .hwy p {
+        font-size: 40px;
+        margin-bottom: 0; }
+  .our-vehicles .tab-content .car__vehicles h1,
+  .our-vehicles .tab-content .car__vehicles p,
+  .our-vehicles .tab-content .car__vehicles .price {
+    color: white; }
+
+.btn--learnmore {
+  color: #fff;
+  background-color: #ff4040;
+  border: 2px solid #ff4040;
+  border-radius: 30px;
+  padding: 5px 20px; }
+  .btn--learnmore:hover {
+    color: #ff4040;
+    background-color: #fff;
+    border: 2px solid #ff4040; }
+.btn--news1 {
+  color: #fff;
+  background-color: #007aff;
+  border: 2px solid #007aff;
+  border-radius: 30px;
+  padding: 5px 20px; }
+  .btn--news1:hover {
+    color: #007aff;
+    background-color: transparent;
+    border: 2px solid #007aff; }
+.btn--news2 {
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  padding: 5px 20px; }
+  .btn--news2:hover {
+    color: #007aff;
+    background-color: #fff;
+    border: 2px solid #007aff; }
+
+/*# sourceMappingURL=main.css.map */

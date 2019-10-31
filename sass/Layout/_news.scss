@@ -1,0 +1,29 @@
+.honda__news {
+    .news__detail {
+        background: url(../../img/CRV-Homepage-1400-T3-2x.webp) no-repeat center center;
+        background-size: cover;
+        height: 370px;
+        margin: 20px 15px;
+        padding-top: 200px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+        h5,
+        p {
+            color: $color-new;
+        }
+
+    }
+
+    .new__detail__kbb {
+        background: url(../../img/Autos-Homepage-Flex-KBB-1400-2x.webp) no-repeat center center;
+        background-size: cover;
+        height: 370px;
+        margin: 20px 15px;
+        padding-top: 150px;
+        padding-left: 20px;
+        padding-right: 450px;
+        // padding-right: 20px;
+
+    }
+}

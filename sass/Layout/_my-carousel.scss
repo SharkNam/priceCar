@@ -1,0 +1,53 @@
+.my-carousel {
+    .carousel-caption {
+        bottom: 50px;
+    }
+
+    .carousel-indicators {
+        li {
+            width: 11px;
+            height: 11px;
+            background: transparent;
+            border: 1.5px solid white;
+            border-radius: 50%;
+
+            // .active {
+            //     background: $color-button-carousel;
+            // }
+        }
+
+        li.active {
+            background: $color-button-carousel;
+        }
+
+
+
+        bottom: 2px;
+    }
+
+    .carousel-inner {
+        .carousel-caption {
+            .h3 {
+                &--color--blue {
+                    color: $color-new;
+                }
+
+                &--color--white {
+                    color: $color-white-0;
+                }
+            }
+        }
+    }
+
+    // .carousel-inner {
+
+    // }
+    // .carousel-item__overlay {
+    //     height: 100%;
+    //     width: 100%;
+    //     top: 0;
+    //     left: 0;
+    //     position: absolute;
+    //     background: $color-new;
+    // }
+}

@@ -1,0 +1,13 @@
+.btn {
+    &--learnmore {
+        @include button($color-white-0, $color-red, $color-red, $color-red, $color-white-0, $color-red);
+    }
+
+    &--news1 {
+        @include button($color-white-0, $color-button-carousel, $color-button-carousel, $color-button-carousel, transparent, $color-button-carousel)
+    }
+
+    &--news2 {
+        @include button($color-white-0, transparent, $color-white-0, $color-button-carousel, $color-white-0, $color-button-carousel)
+    }
+}
