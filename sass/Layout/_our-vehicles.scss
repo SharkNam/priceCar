@@ -1,9 +1,20 @@
 .our-vehicles {
-
     .nav-tabs .nav-item.show .nav-link,
     .nav-tabs .nav-link.active,
     .nav-tabs .nav-item:hover .nav-link {
         border: white;
+    }
+
+    .nav-tabs .nav-link.line:after {
+        content: "";
+        position: absolute;
+        display: inline-block;
+        width: 160px;
+        height: 4px;
+        left: 0;
+        bottom: -290px;
+        background: $color-blue-2;
+        // transition: all 0.5s;
     }
 
     .tab-content .car__vehicles {
@@ -30,9 +41,7 @@
                         margin-bottom: 0;
                     }
                 }
-
             }
-
         }
 
         h1,
@@ -41,6 +50,8 @@
             color: white;
         }
 
+        .ex--b {
+            padding-top: 30px;
+        }
     }
-
 }

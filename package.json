@@ -1,0 +1,23 @@
+{
+    "name": "banxecon",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "compile-sass": "node-sass sass/main.scss css/main.css --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SharkNam/priceCar.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/SharkNam/priceCar/issues"
+    },
+    "homepage": "https://github.com/SharkNam/priceCar#readme",
+    "dependencies": {
+        "node-sass": "^4.13.0"
+    }
+}

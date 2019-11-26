@@ -1,13 +1,21 @@
 .btn {
     &--learnmore {
-        @include button($color-white-0, $color-red, $color-red, $color-red, $color-white-0, $color-red);
+        @include button($color-white-0, $color-red-0, $color-red-0, $color-red-0, $color-white-0, $color-red-0);
     }
 
     &--news1 {
-        @include button($color-white-0, $color-button-carousel, $color-button-carousel, $color-button-carousel, transparent, $color-button-carousel)
+        @include button($color-white-0, $color-blue-2, $color-blue-2, $color-blue-7, transparent, $color-blue-7);
     }
 
     &--news2 {
-        @include button($color-white-0, transparent, $color-white-0, $color-button-carousel, $color-white-0, $color-button-carousel)
+        @include button($color-white-0, transparent, $color-white-0, $color-blue-7, $color-white-0, $color-blue-7);
+    }
+
+    &--ex {
+        @include button($color-white-0, $color-red-0, $color-white-0, $color-red-0, $color-white-0, $color-white-0);
+    }
+
+    &--bu {
+        @include button($color-red-0, $color-white-0, $color-red-0, $color-white-0, $color-red-0, $color-red-0);
     }
 }
