@@ -1,8 +1,8 @@
-@import "Helpers/_variable.scss";
+@import "Abstracts/variable";
 
-@import "Helpers/mixin";
-@import "Helpers/extend";
-@import "Helpers/function";
+@import "Abstracts/mixin";
+@import "Abstracts/extend";
+@import "Abstracts/function";
 
 @import "Base/reset.scss";
 

@@ -88,9 +88,13 @@ body {
     position: relative; }
   .our-vehicles .tab-content .car__vehicles .vehicles__content {
     position: absolute;
-    top: 25%;
+    top: 20%;
     right: 68%;
     left: 8%; }
+    .our-vehicles .tab-content .car__vehicles .vehicles__content p {
+      margin-top: 18px; }
+    .our-vehicles .tab-content .car__vehicles .vehicles__content svg {
+      width: 90%; }
     .our-vehicles .tab-content .car__vehicles .vehicles__content .price {
       display: flex;
       justify-content: space-between; }
@@ -98,6 +102,17 @@ body {
       .our-vehicles .tab-content .car__vehicles .vehicles__content .price .hwy p {
         font-size: 40px;
         margin-bottom: 0; }
+    .our-vehicles .tab-content .car__vehicles .vehicles__content .hr-primary {
+      border-top: 3px solid #415d76;
+      width: 170%; }
+    .our-vehicles .tab-content .car__vehicles .vehicles__content .vehicles__bottom img {
+      bottom: 50px;
+      left: 75%;
+      width: 280px;
+      height: 70px; }
+    .our-vehicles .tab-content .car__vehicles .vehicles__content .vehicles__bottom p {
+      margin-bottom: 0px;
+      margin-top: 40px; }
   .our-vehicles .tab-content .car__vehicles h1,
   .our-vehicles .tab-content .car__vehicles p,
   .our-vehicles .tab-content .car__vehicles .price {
